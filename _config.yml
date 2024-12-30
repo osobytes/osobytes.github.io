@@ -1,0 +1,19 @@
+source: ./
+destination: ./_site
+markdown: kramdown
+theme: minima
+permalink: /:year/:month/:day/:title/
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+title: "Welcome to My Blog"
+excerpt: "A minimalistic Jekyll blog with code examples and Markdown support."
+paginate: 5
+show_excerpts: true
+show_categories: true
+show_tags: true
+show_metadata: true
+syntax_highlighter: rouge
+syntax_highlighter_theme: github
+syntax_highlighter_line_numbers: true
