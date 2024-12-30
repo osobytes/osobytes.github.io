@@ -1,2 +1,1 @@
-# osobytes-blog
-A minimalistic Jekyll blog with code examples and Markdown support
+This repository is empty. Any task executed on it should be considered a new capability and needs to be created.
