@@ -7,8 +7,8 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-title: "Welcome to My Blog"
-excerpt: "A minimalistic Jekyll blog with code examples and Markdown support."
+title: "Osobytes Blog"
+excerpt: "A minimalistic blog powered by Jekyll, hosted on GitHub Pages."
 paginate: 5
 show_excerpts: true
 show_categories: true
@@ -17,3 +17,4 @@ show_metadata: true
 syntax_highlighter: rouge
 syntax_highlighter_theme: github
 syntax_highlighter_line_numbers: true
+landing_page_layout: home

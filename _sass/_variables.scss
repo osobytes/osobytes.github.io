@@ -8,3 +8,64 @@ $background-color: #FFFFFF;
 $text-color: #333333;
 $link-color: #0066cc;
 $code-block-background: #f5f2f0;
+
+/* Media Queries for Wide Screens */
+@media (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  header, footer {
+    padding: 20px 40px;
+  }
+
+  main {
+    padding: 20px 40px;
+  }
+}
+
+/* Styles for the New Landing Page Layout */
+#landing-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+#landing-page-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#landing-page-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+#landing-page-content .recent-posts {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#landing-page-content .recent-posts h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#landing-page-content .recent-posts .post {
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid $text-color;
+  margin-bottom: 20px;
+}
+
+#landing-page-content .recent-posts .post:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
