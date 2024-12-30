@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/wide-screen.css" | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.excerpt }}</p>
+  </header>
+  <main>
+    <section class="recent-posts">
+      <h2>Recent Posts</h2>
+      {% for post in site.posts limit:5 %}
+        <div class="post">
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt }}</p>
+        </div>
+      {% endfor %}
+    </section>
+    <!-- Add additional content here -->
+  </main>
+  <footer>
+    <p>© 2024 Osobytes Blog</p>
+  </footer>
+</body>
+</html>

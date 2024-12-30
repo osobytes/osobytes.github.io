@@ -83,3 +83,11 @@ A minimalistic blog powered by Jekyll, hosted on GitHub Pages, featuring Markdow
 3. Use code blocks with syntax highlighting for code examples.
 4. Ensure the post page displays the metadata (author, date, categories) at the top.
 5. Verify that the homepage displays up to 5 recent posts and includes categories/tags if available.
+
+## Blog Description
+
+Welcome to Osobytes Blog! This blog is a minimalistic platform powered by Jekyll and hosted on GitHub Pages. It features Markdown support, code syntax highlighting, and a variety of posts on different topics. Stay tuned for more updates and interesting content!
+
+## Note
+
+This README is only visible in the repository and not on the blog's landing page.
